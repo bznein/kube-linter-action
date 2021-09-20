@@ -11,9 +11,9 @@ inputs:
     description: 'Path to config file'
     required: false
   format:
-    description: 'Output format. Allowed values: json, plain, sarif. (default is "plain")'
+    description: 'Output format. Allowed values: json, plain, sarif. (default is "sarif")'
     required: false
-    default: 'plain'
+    default: 'sarif'
   output-file:
     description: 'Filename to store output.  Default "kubelinter.log"'
     required: false
